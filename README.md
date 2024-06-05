@@ -21,6 +21,43 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## CRUD de Usuarios con Laravel, Tailwind, Livewire y MySQL
+
+Este repositorio contiene una aplicación web desarrollada utilizando Laravel, Tailwind CSS, Livewire y MySQL, diseñada para realizar operaciones de creación, lectura, actualización y eliminación (CRUD) de registros de usuarios.
+
+### Características principales:
+
+- **Laravel:** Framework PHP utilizado para construir la aplicación, proporcionando una estructura sólida y conveniente para el desarrollo de aplicaciones web modernas.
+- **Tailwind CSS:** Utilizado para diseñar una interfaz de usuario atractiva y receptiva de manera eficiente.
+- **Livewire:** Maneja la interactividad en tiempo real en la interfaz de usuario sin necesidad de escribir JavaScript.
+- **MySQL:** Base de datos utilizada para almacenar y gestionar los registros de usuarios.
+
+### Funcionalidades:
+
+- **CRUD de Usuarios:** Permite la creación, lectura, actualización y eliminación de registros de usuarios.
+- **Validación de Datos:** Implementación de validación robusta para asegurar que los datos introducidos sean válidos.
+- **Interfaz de Usuario Intuitiva:** Diseñada para ser fácil de usar y proporcionar una experiencia fluida.
+
+### Requisitos del Sistema:
+
+- PHP >= 7.4
+- Composer
+- Node.js y npm
+- MySQL
+
+### Instalación y Uso:
+
+1. Clona este repositorio en tu máquina local.
+2. Configura tu entorno de desarrollo con PHP, Composer, Node.js y MySQL.
+3. Copia el archivo `.env.example` y renómbralo a `.env`, luego configura tu base de datos MySQL.
+4. Ejecuta `composer install` para instalar las dependencias de PHP.
+5. Ejecuta `npm install && npm run dev` para instalar las dependencias de Node.js y compilar los activos de JavaScript y CSS.
+6. Ejecuta `php artisan migrate` para ejecutar las migraciones y configurar la base de datos.
+7. Inicia el servidor de desarrollo con `php artisan serve`.
+8. Visita `http://localhost:8000` en tu navegador web para acceder a la aplicación.
+
+¡Disfruta explorando y desarrollando con esta aplicación CRUD de Usuarios!
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
